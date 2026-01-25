@@ -1,0 +1,6 @@
+openai
+flask
+python-dotenv
+pdfplumber
+fpdf
+flask-cors
