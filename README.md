@@ -9,11 +9,12 @@ A powerful AI-driven application that uses a team of autonomous agents to analyz
 ## 🌟 Key Features
 
 ### 🤖 Multi-Agent Architecture
-The system orchestrates **4 specialized AI Agents** to process your data:
+The system orchestrates **Smart AI Agents & ML Models** to process your data:
 1.  **🕵️ Skill Extractor Agent**: Parses your PDF to extract technical and soft skills, experience, and projects.
 2.  **🎯 ATS Matcher Agent**: Compares your resume against the target role (e.g., "Software Engineer") to calculate a match score and identify missing keywords.
 3.  **✍️ Resume Writer Agent**: Automatically rewrites your resume content to include missing skills and optimize for Applicant Tracking Systems (ATS).
 4.  **🎤 Interview Coach Agent**: Generates tailored technical and behavioral interview questions based on your specific profile.
+5.  **🔮 Hiring Probability Predictor**: Uses trained ML models (Random Forest) to predict your likelihood of getting hired.
 
 ### 🎨 Premium User Experience
 *   **Glassmorphism UI**: Modern, transparent design with interactive elements.
@@ -33,6 +34,7 @@ The system orchestrates **4 specialized AI Agents** to process your data:
 ### Backend (Core Logic)
 *   **Python + Flask**: RESTful API server.
 *   **OpenAI API (GPT-4o)**: Powers the intelligence of the agents.
+*   **Scikit-learn & Pandas**: Powers the ML prediction engine.
 *   **PDFPlumber**: For accurate text extraction from uploaded PDFs.
 *   **FPDF**: For generating professional, clean PDF outputs.
 
@@ -91,6 +93,11 @@ resume-agent/
 │   │   ├── ats_agent.py
 │   │   ├── writer_agent.py
 │   │   └── interview_agent.py
+│   ├── 📁 ml_engine/         # 🧠 Machine Learning Engine
+│   │   ├── model_factory.py
+│   │   ├── predictor.py
+│   │   ├── data_generator.py
+│   │   └── best_model.pkl
 │   ├── app.py                # API Gateway & Orchestrator
 │   ├── pdf_parser.py         # PDF Extraction Logic
 │   ├── pdf_generator.py      # PDF Creation Logic
