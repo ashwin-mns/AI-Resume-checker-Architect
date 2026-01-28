@@ -125,4 +125,7 @@ To enable the **Real AI Capabilities** (instead of the Demo Mode):
 6.  **Download** your new optimized resume!
 
 ---
-*Built with ❤️ by your AI Agent Team*
+*Built with ❤️ by your A<img width="1917" height="859" alt="Screenshot 2026-01-28 231549" src="https://github.com/user-attachments/assets/5450ad5e-93f9-4f2f-be47-491343f3c7b9" />
+I Agent Team*<img width="1894" height="852" alt="Screenshot 2026-01-28 231644" src="https:<img width="1902" height="857" alt="Screenshot 2026-01-28 231700" src="https://github.com/user-attachments/assets/fc2a8b6c-3a35-431b-8972-7e2cd10f675e" />
+//github.com/user-attachments/assets/b83dd640-5fde-49f2-9a90-73832c23ac2e" />
+
